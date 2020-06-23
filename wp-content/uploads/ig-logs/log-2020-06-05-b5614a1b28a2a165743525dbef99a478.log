@@ -1,0 +1,12 @@
+2020-06-05T10:19:36+00:00 INFO Database is upto date
+2020-06-05T11:11:21+00:00 INFO Sync Users
+1) C:\xampp\htdocs\parijathatheatre\wordpress\wp-admin\admin.php(254): do_action('email-subscribe...')
+2) C:\xampp\htdocs\parijathatheatre\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+3) C:\xampp\htdocs\parijathatheatre\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+4) C:\xampp\htdocs\parijathatheatre\wordpress\wp-includes\class-wp-hook.php(287): Email_Subscribers_Admin->render_contacts('')
+5) C:\xampp\htdocs\parijathatheatre\wordpress\wp-content\plugins\email-subscribers\lite\admin\class-email-subscribers-admin.php(340): ES_Contacts_Table->render()
+6) C:\xampp\htdocs\parijathatheatre\wordpress\wp-content\plugins\email-subscribers\lite\includes\classes\class-es-contacts-table.php(181): ES_Contacts_Table->load_sync()
+7) C:\xampp\htdocs\parijathatheatre\wordpress\wp-content\plugins\email-subscribers\lite\includes\classes\class-es-contacts-table.php(253): ES_Handle_Sync_Wp_User->prepare_sync_user()
+8) C:\xampp\htdocs\parijathatheatre\wordpress\wp-content\plugins\email-subscribers\lite\includes\classes\class-es-handle-sync-wp-user.php(231): ES_Handle_Sync_Wp_User->sync_users_callback()
+
+2020-06-05T12:31:20+00:00 INFO Database is upto date
